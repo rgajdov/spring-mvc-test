@@ -7,7 +7,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class FirstController {
 
     @GetMapping("/hello")
-    public String helloPage() {
+    public String helloPage(@RequestParam("name") String name) {
+        System.out.println(name);
         return "first/hello";
     }
 
