@@ -12,6 +12,9 @@ import org.thymeleaf.spring5.SpringTemplateEngine;
 import org.thymeleaf.spring5.templateresolver.SpringResourceTemplateResolver;
 import org.thymeleaf.spring5.view.ThymeleafViewResolver;
 
+/*
+@author Rostislav L. Gaydov
+*/
 @Configuration
 @ComponentScan("ru.rgajdov.projects")
 @EnableWebMvc
